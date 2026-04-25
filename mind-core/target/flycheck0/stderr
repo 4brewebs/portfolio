@@ -1,0 +1,119 @@
+   0.337768200s  INFO prepare_target{force=false package_id=portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core) target="portfolio_mind_core"}: cargo::core::compiler::fingerprint: fingerprint error for portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("portfolio_mind_core", ["cdylib"], "C:\\Users\\lmserrano\\Documents\\portfolio\\mind-core\\src\\lib.rs", Edition2024) }
+   0.338005300s  INFO prepare_target{force=false package_id=portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core) target="portfolio_mind_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\lmserrano\Documents\portfolio\mind-core\target\debug\.fingerprint\portfolio-mind-core-1fe469a521f08153\lib-portfolio_mind_core`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.425268500s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.118 target="wasm_bindgen"}: cargo::core::compiler::fingerprint: fingerprint error for wasm-bindgen v0.2.118/Check { test: false }/TargetInner { tested: false, ..: lib_target("wasm_bindgen", ["lib"], "C:\\Users\\lmserrano\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasm-bindgen-0.2.118\\src\\lib.rs", Edition2021) }
+   0.425378800s  INFO prepare_target{force=false package_id=wasm-bindgen v0.2.118 target="wasm_bindgen"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\lmserrano\Documents\portfolio\mind-core\target\debug\.fingerprint\wasm-bindgen-74b777089434a0f2\lib-wasm_bindgen`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.500375400s  INFO prepare_target{force=false package_id=wasm-bindgen-shared v0.2.118 target="wasm_bindgen_shared"}: cargo::core::compiler::fingerprint: fingerprint error for wasm-bindgen-shared v0.2.118/Check { test: false }/TargetInner { ..: lib_target("wasm_bindgen_shared", ["lib"], "C:\\Users\\lmserrano\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasm-bindgen-shared-0.2.118\\src\\lib.rs", Edition2021) }
+   0.500453500s  INFO prepare_target{force=false package_id=wasm-bindgen-shared v0.2.118 target="wasm_bindgen_shared"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\lmserrano\Documents\portfolio\mind-core\target\debug\.fingerprint\wasm-bindgen-shared-1d157a8195009e28\lib-wasm_bindgen_shared`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.502906700s  INFO prepare_target{force=false package_id=portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core) target="portfolio_mind_core"}: cargo::core::compiler::fingerprint: fingerprint error for portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("portfolio_mind_core", ["cdylib"], "C:\\Users\\lmserrano\\Documents\\portfolio\\mind-core\\src\\lib.rs", Edition2024) }
+   0.503017800s  INFO prepare_target{force=false package_id=portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core) target="portfolio_mind_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\lmserrano\Documents\portfolio\mind-core\target\debug\.fingerprint\portfolio-mind-core-17d79180f0df97f8\test-lib-portfolio_mind_core`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking wasm-bindgen-shared v0.2.118
+    Checking wasm-bindgen v0.2.118
+    Checking portfolio-mind-core v0.1.0 (C:\Users\lmserrano\Documents\portfolio\mind-core)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6.74s
