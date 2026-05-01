@@ -62,7 +62,7 @@ pub fn get_welcome_message() -> String {
     format!(
         "{}\r\n\
         =======================================\r\n\
-        4Brewebs Terminal Portfolio 🚀\r\n\
+        terMindOs Terminal Portfolio 🚀\r\n\
         =======================================\r\n\
         Bienvenido a la terminal profesional.\r\n\
         Escribe 'help' para ver la lista de comandos.\r\n",
